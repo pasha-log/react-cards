@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { v4 as uuid } from "uuid";
-import axios from "axios";
+// import { v4 as uuid } from "uuid";
+// import axios from "axios";
 import PokemonSelect from "./PokemonSelect";
 import PokemonCard from "./PokemonCard";
 import "./PokeDex.css";
+import useAxios from "./hooks/useAxios";
 
 /* Renders a list of pokemon cards.
  * Can also add a new card at random,
