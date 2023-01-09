@@ -1,3 +1,17 @@
+# React Cards: Playing Cards and Pokemon
+
+<img src='./public/cards.png' alt=''>
+
+## Description: 
+
+In this project I was given starter code for this app that makes calls from both the [Deck of Cards API](https://www.deckofcardsapi.com/) & [PokeAPI](https://pokeapi.co/).
+The objective was to refactor the code with two custom written hooks: useAxios (to make dynamic http requests to both APIs) and useFlip (to flip playing cards and Pokemon cards). The idea was to clean up the code to reduce redundancy and repitition. 
+
+## Tools Used: 
+
+* React.js
+* Axios 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
